@@ -25,16 +25,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        android:background="@drawable/logo"/>
+        android:src="@drawable/logo"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
         android:text="ПРИВЕТ"
+        android:fontFamily="@font/alegreya_bold"
         android:textColor="@color/white"
         android:textSize="30dp"
-        android:layout_marginTop="370dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
