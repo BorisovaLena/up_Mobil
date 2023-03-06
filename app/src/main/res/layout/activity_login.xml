@@ -31,15 +31,13 @@
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="0dp"
+        android:layout_width="350dp"
         android:layout_height="45dp"
         android:layout_marginTop="50dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginEnd="26dp"
+        android:fontFamily="@font/alegreya_sans"
         android:paddingLeft="15dp"
         android:paddingBottom="15dp"
         android:text="Email"
-        android:fontFamily="@font/alegreya_sans"
         android:textColor="@color/white"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,19 +46,17 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="0.85"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/editTextEmail2"
-        android:layout_width="0dp"
+        android:layout_width="350dp"
         android:layout_height="45dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginEnd="26dp"
-        android:paddingLeft="16dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/alegreya_sans"
+        android:paddingLeft="16dp"
         android:paddingBottom="15dp"
         android:text="Пароль"
-        android:fontFamily="@font/alegreya_sans"
         android:textColor="@color/white"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,6 +65,52 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
         app:layout_constraintWidth_default="percent"
         app:layout_constraintWidth_percent="0.85"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <android.widget.Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:layout_marginLeft="32dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <android.widget.Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Профиль"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="485dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/group"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
