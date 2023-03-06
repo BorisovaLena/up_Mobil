@@ -18,6 +18,11 @@ public class Onboarding extends AppCompatActivity {
     {
         Intent intent = new Intent(this, Register.class);
         startActivity(intent);
+    }
 
+    public void onClickLogin(View v)
+    {
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
     }
 }
